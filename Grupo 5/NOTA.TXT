@@ -1,0 +1,18 @@
+Sugerencias para el código HTML proporcionado:
+
+Estructura y semántica:
+
+    Se recomienda utilizar elementos HTML más semánticos para estructurar el contenido, como header, main, nav, article, section, aside, figure, figcaption, etc.
+    Se recomienda utilizar encabezados (<h1>, <h2>, <h3>, etc.) para organizar la información de forma jerárquica.
+    Se recomienda utilizar listas no ordenadas (<ul>) y listas ordenadas (<ol>) para presentar elementos de forma organizada.
+    Se recomienda utilizar elementos de bloque (<div>) para agrupar contenido relacionado.
+    Se recomienda utilizar elementos de texto (<p>) para párrafos de texto.
+    Se recomienda utilizar elementos de imagen (<img>) con atributos alt descriptivos para las imágenes.
+    Se recomienda utilizar elementos de video (<video>) con atributos controls, autoplay y muted para los videos.
+
+Accesibilidad:
+
+    Se recomienda agregar un texto alternativo (alt) descriptivo a todas las imágenes para mejorar la accesibilidad para usuarios con lectores de pantalla.
+    Se recomienda revisar el contraste de color entre el texto y el fondo para garantizar una legibilidad adecuada.
+    
+    NOTA: 70
