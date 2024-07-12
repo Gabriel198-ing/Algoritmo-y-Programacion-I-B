@@ -1,0 +1,369 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family:  "roboto",sans-serif;
+    margin: 0;
+}
+
+h1{ font-size: 3.5em;}
+h2{ font-size: 2.7em;}
+h3{ font-size: 2em;}
+p{ font-size: 1.25em;}
+ul{ list-style: none;}
+li{ font-size: 1.25em;}
+
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    color: rgb(19, 30, 41);
+    background-color: rgb(255, 255, 255);
+}
+
+button:hover{
+    background-color: (rgb(99, 65, 65));
+}
+
+.container{
+    max-width: 1440px;
+    margin: auto;
+}
+
+.color-acento{color: darkolivegreen;}
+
+header{
+    background-color: rgb(235,235,235);
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: rgb(150, 88, 12);
+    font-size: 1.6em;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgba(66, 175, 44, 0.966);
+}
+
+header a:hover{
+    color: rgb(231, 105, 15);
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(../img/Fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+#hero h1{
+    color: rgba(235, 235, 235, 0.979);
+}
+
+#salto-angel .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#caracteristicas{
+    background-color:rgb(30, 38, 38);
+    color:rgb(233, 233, 233);
+    text-align: center;
+}
+
+#caracteristicas .container{
+    padding: 150px 12px;
+
+}
+#caracteristicas h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#caracteristicas p{
+    display: none;
+
+}
+
+#caracteristicas .carta1,.carta2,.carta3{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+
+}
+
+.carta1{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(../img/img.indigenas.png);
+
+}
+
+.carta2{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(../img/img.saltoangelturismo4.png);
+
+
+}
+
+.carta3{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(../img/img.saltoangel3.png);
+
+}
+
+#galeria .container{
+    text-align: center;
+    padding: 150px 12px;
+}
+
+#galeria li{
+    margin: 15px 0px;
+    font-weight: bold;
+}
+
+#galeria .col-lg-4{
+    margin: 0 !important;
+    padding: 25%;
+
+}
+
+#Galeria img{
+    width: 100%;
+    height: 300px;
+}
+
+#galeria img:hover{
+    border: 5px solid white;
+}
+
+
+#Ubicacion .container{
+    text-align: center;
+    padding: 150px 20px;
+    color: aliceblue;
+}
+
+#final {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(31, 31, 31);
+    height: 30vh;
+}
+
+#final h4{
+    font-size: 2vw;
+}
+
+#final button{
+    font-size: 5vw;
+}
+
+footer{
+    background-color: rgb(32, 32, 32);
+}
+
+footer p{
+    margin: 0px;
+    color: rgb(230, 230, 230);
+}
+
+footer .container{
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+@media (min-width: 850px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+
+    #hero h1{
+        font-size: 5em;
+    }
+
+    #salto-angel .container{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #salto-angel .texto{
+        width: 50%;
+        max-width: 600px;
+        text-align: initial;
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #salto-angel h2{
+        margin-top: 0px;
+    }
+
+    #salto-angel .img-container{
+        background-image: url("../img/img.saltoangelturismo2.png");
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 500px; 
+    }
+
+    #caracteristicas .programa{
+        display: flex;
+        justify-content: center;
+    }
+
+    #caracteristicas p{
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    #caracteristicas h3{
+        font-size: 3em;
+    }
+
+    #caracteristicas h2{
+        margin-top: 0;
+    }
+
+    #caracteristicas .carta1,.carta2,.carta3{ 
+        padding: 50px;
+        background-size: cover;
+        background-position-y: 0;
+        background-color: rgba(50, 50, 50, 1);
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.5)
+    }
+
+    .carta1{
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("../img/img.indigenas.png");
+
+    }
+
+    .carta2{
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("../img/img.saltoangelturismo4.png");
+    }
+
+    .carta3{
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("../img/img.saltoangel3.png");
+
+    }
+
+    #Ubicacion{
+        background-color: rgb(30, 30, 30);
+        text-align: center;
+        margin-top: auto;
+
+    }
+
+    #Ubicacion .container{
+        text-align: center;
+    }
+
+    #Ubicacion ul{
+        margin-left: 100px;
+    }
+
+    #final h2{
+        font-size: 3em;
+    }
+
+    #final button{
+        font-size: 1em;
+    }
+
+    footer .container{
+    text-align: center;
+    }
+}
+
+@media (min-width: 1200px) {
+    #Ubicacion{
+        background-position-x: calc(100vw - 800px);
+    }
+}
