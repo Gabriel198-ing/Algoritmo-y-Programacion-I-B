@@ -1,0 +1,16 @@
+Estructura y organización:
+
+    Sección "contact":
+        Eliminar el tag <head> dentro de la sección "contact".
+        Eliminar el tag de cierre </body> adicional al final de la sección "contact".
+        Considerar usar un elemento semántico como <section class="contact"> para la sección de contacto.
+    Elementos semánticos:
+        Considerar usar elementos semánticos como <section class="about"> y <footer class="footer"> para las secciones "about" y "footer", respectivamente.
+    Estilos en línea:
+        Evitar el uso de estilos en línea (<FONT COLOR="white">) y moverlos a un archivo CSS externo para mejorar la separación de preocupaciones y la mantenibilidad.
+
+Accesibilidad:
+
+    Texto alternativo (alt): Agregar atributos alt descriptivos a las imágenes para mejorar la accesibilidad para usuarios que no pueden ver las imágenes o que usan lectores de pantalla.
+    
+    NOTA: 68

@@ -1,0 +1,82 @@
+body{
+    background-image: url(./assets/img/Imagen\ oscura.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: 0;
+
+    font-family: monospace;
+}
+
+form{
+    width: 450px;
+    margin: auto;
+    background-image: url(./assets/img/Imagen\ oscura.jpg);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+h2{
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+
+textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+#boton{
+    background-image: url(./assets/img/Imagen\ oscura.jpg);
+    color: #fff;
+    padding: 20px;
+}
+
+#boton:hover{
+    cursor: pointer;
+}
+
+@media (max-width:480px){
+    from{
+        width: 100%;
+    }
+}
+
+h1{
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.btn-neon{
+    position: relative;
+    display: inline-block;
+    padding: 10px 25px;
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 15px;
+    text-decoration: none;
+    overflow: hidden;
+    transition:0.1s;
+}
+
+.btn-neon:hover{
+    background:#028bd0;
+    box-shadow: 0 0 5px #028bd0, 0 0 35px #028bd0, 0 0 60px #028bd0;
+    transition-delay: 0.1s;
+}
