@@ -1,0 +1,331 @@
+header{
+    background-color: #333;
+    color: #fff;
+    align-items: center;
+    display: flex;
+    height: 160px;
+}
+body{
+    font-family: "Bitter", serif;
+}
+nav{
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li{
+    display: inline;
+    margin-right: 10px;
+
+}
+nav ul li a {
+   color: #fff;
+   text-decoration: none;
+}
+main{
+    background-color: #5f5d5d;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    font-family: "Bitter", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    gap: 20px;
+    padding: 20px;
+    text-align: center;
+}
+main ul {
+    text-align: left;
+}
+.contenedor-galeria {
+    display: grid;
+    place-items: center;
+    width: 700px;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px;
+    max-width: 900px;
+}
+
+.contenedor-imagen {
+    position: relative;
+    left: 0;
+    width: 500px;
+    border-radius: 5px;
+    height: 150px;
+    overflow: hidden;
+    background-color: #efefef;
+    transition: 0.4s ease-in-out;
+    box-shadow: 0 5px 12px rgb(0, 0, 0, 0.5);
+    flex: 0.55;
+}
+
+.contenedor-imagen img {
+    height: 150px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.contenedor-imagen:hover {
+    flex: 1;
+    cursor: pointer;
+    border-radius: 50px;
+}
+.accordion-body{
+    text-align: justify;
+    white-space: pre-line;
+}
+.Reliquias img{
+    height: 120px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.harry-potter img{
+    width: 600px;
+    align-items: center;
+}
+.Potter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Potter img{
+    width: 350px;
+}
+
+.Ronald{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Ronald img{
+    width: 350px;
+}
+.Hermione{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Hermione img{
+    width: 350px;
+}
+.Draquito{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Draquito img{
+    width: 350px;
+}
+.Voldy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Voldy img{
+    width: 550px;
+    height: 275px;
+}
+.Siriusss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Siriusss img{
+    width: 550px;
+}
+.FamiliaWeasly{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.FamiliaWeasly img{
+    width: 550px;
+}
+.AlbusDumbledore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.AlbusDumbledore img{
+    width: 350px;
+}
+.DursleyFamily{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.DursleyFamily img{
+    width: 450px;
+}
+.SnapeSeverus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SnapeSeverus img{
+    width: 450px;
+}
+.PiedraFiloso{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.PiedraFiloso img{
+    width: 350px;
+}
+.Camara{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Camara img{
+    width: 250px;
+}
+.PrisioneroDe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.PrisioneroDe img{
+    width: 350px;
+}
+.Caliz{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Caliz img{
+    width: 350px;
+}
+.OrdenDel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.OrdenDel img{
+    width: 350px;
+}
+.MisterioDel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.MisterioDel img{
+    width: 250px;
+}
+.ReliquiasDel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ReliquiasDel img{
+    width: 250px;
+}
+.ReliquiasDel2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ReliquiasDel2 img{
+    width: 250px;
+}
+.contenido-principal{
+    background-color: #f9f9f9;
+    padding: 10px;
+    text-align: justify;
+    font-size: 20px;
+    margin: 20px;
+}
+.primerlibro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.primerlibro img{
+    width: 250px;
+}
+.segundolibro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.segundolibro img{
+    width: 250px;
+}
+.tercerlibro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tercerlibro img{
+    width: 250px;
+}
+.cuartolibro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cuartolibro img{
+    width: 250px;
+}
+.quintolibro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quintolibro img{
+    width: 250px;
+}
+.sextolibro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sextolibro img{
+    width: 250px;
+}
+.septimolibro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.septimolibro img{
+    width: 250px;
+}
+.octavolibro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.octavolibro img{
+    width: 250px;
+}
+.potters{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.publicidad{
+    background-color: #ccc;
+    text-align: justify;
+    white-space: pre-line;
+    padding: 10px;
+    font-size: 17px;
+    margin: 40px;
+}
+
+footer{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}

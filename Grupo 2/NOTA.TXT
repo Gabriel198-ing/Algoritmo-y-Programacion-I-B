@@ -1,0 +1,24 @@
+Sugerencias para el código HTML proporcionado:
+
+Estructura:
+
+    El elemento <h1> dentro del encabezado (<header>) se debería utilizar para el título principal de la página, que es "Libros De Harry Potter".
+    Se recomienda utilizar un elemento <h1> para el título principal dentro del contenido principal (<main>). En este caso, podría ser "Los Libros".
+    El contenido del pie de página (<footer>) se ve un poco mezclado. Se recomienda separar el botón de "Subir" y el texto de derechos de autor en elementos separados.
+
+Semántica:
+
+    Se utilizan elementos <i> para las imágenes de las reliquias y del pie de página. Se recomienda utilizar el elemento img con un atributo alt descriptivo para las imágenes.
+    El primer elemento <a> dentro del encabezado está vacío. Se recomienda eliminar el elemento vacío o agregar el contenido adecuado.
+    Se recomienda utilizar elementos <h2> y <h3> para estructurar los subtítulos dentro del contenido principal.
+
+Accesibilidad:
+
+    Se recomienda agregar un atributo alt descriptivo a todas las imágenes para mejorar la accesibilidad para usuarios con lectores de pantalla.
+    Se recomienda revisar el contraste de color entre el texto y el fondo para garantizar una legibilidad adecuada.
+
+Otros:
+
+    Se están incluyendo dos librerías de Bootstrap (CSS y JavaScript) pero no se están utilizando todas las clases que ofrecen. Se recomienda evaluar si ambas librerías son necesarias o se pueden reemplazar por clases personalizadas más específicas.
+    
+    NOTA: 80

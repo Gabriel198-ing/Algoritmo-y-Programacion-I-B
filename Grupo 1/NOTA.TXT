@@ -1,0 +1,27 @@
+Estructura y semántica:
+
+    Cabecera (<header>):
+        Se recomienda agregar un elemento <h1> para el título principal de la página, que debería ser "Nutri Salud".
+        El elemento <i> dentro de la etiqueta <a> del logo no tiene contenido. Se recomienda verificar si debe incluirse texto o si se trata de un error.
+        Se recomienda agregar un elemento <nav> con una lista desordenada (<ul>) para mejorar la accesibilidad del menú de navegación.
+    Secciones (<section>):
+        Se recomienda agregar un atributo id único a cada sección para facilitar su identificación y estilo.
+        Se recomienda utilizar encabezados (<h2>, <h3>, etc.) para estructurar el contenido de las secciones y mejorar la accesibilidad.
+    Pie de página (<footer>):
+        Se recomienda agregar un elemento <p> para el texto de derechos de autor, incluyendo el año actual.
+        Se recomienda organizar los enlaces de redes sociales en una lista horizontal (<ul>) o utilizar iconos SVG en lugar de íconos de fuentes.
+
+Contenido:
+
+    Imágenes:
+        Se recomienda agregar atributos alt descriptivos a las imágenes para mejorar la accesibilidad.
+    Texto:
+        Se recomienda revisar el texto para corregir errores ortográficos y gramaticales.
+        Se recomienda utilizar un lenguaje claro y conciso para facilitar la comprensión del contenido.
+
+Estilos:
+   Se recomienda utilizar nombres de clases descriptivos para facilitar la identificación de los elementos en el código CSS.
+    Se recomienda utilizar un esquema de color consistente en toda la página.
+    Se recomienda probar la página en diferentes navegadores y dispositivos para garantizar una visualización correcta.
+    
+    NOTA: 80
